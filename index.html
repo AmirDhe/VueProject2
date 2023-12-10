@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Vue Mastery</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <a href="#best-seller">
+        <img src="assets/images/home.png" alt="Scroll to Our Best-Seller">
+    </a>
+
+    <div class="cart">
+        <img src="assets/images/istockphoto-871717684-612x612.jpg"  alt="Navigation Bar Image"> <p>&nbsp;&nbsp;&nbsp;({{cart.length }})</p>
+    </div>
+
+    <product-display
+            :premium="premium"
+            @add-to-cart="updateCart"
+    ></product-display>
+</div>
+
+<footer>
+    <p>&copy; 2023 Ilac-Efrei Web project - By Amir DAHMANE and Raphael DAUBIANE</p>
+</footer>
+
+
+
+<script src="./main.js"></script>
+<script src="./components/ProductDisplay.js"></script>
+<script src="./components/ReviewForm.js"></script>
+<script src="./components/ReviewList.js"></script>
+
+
+<script>
+    app.mount('#app')
+</script>
+</body>
+</html>
