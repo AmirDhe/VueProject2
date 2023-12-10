@@ -18,7 +18,7 @@ This Vue.js project is an e-commerce single-page application that showcases an i
  - [x] **Forms & v-model**: Integrates form handling with v-model for review submissions and data binding.
  - [x] **Minimum Product Variants**: Displays at least `three` color variants for each product, enhancing the user's choice.
 
- - [ ] ## Live Demo
+  ## Live Demo
 
 [Click here for the live demo](https://amirdhe.github.io/Vue_Content_Behaviour/)
 
