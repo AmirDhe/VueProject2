@@ -20,7 +20,7 @@ This Vue.js project is an e-commerce single-page application that showcases an i
 
   ## Live Demo
 
-[Click here for the live demo](https://amirdhe.github.io/Vue_Content_Behaviour/)
+[Click here for the live demo](https://amirdhe.github.io/VueProject2/)
 
 ## Credits
 
